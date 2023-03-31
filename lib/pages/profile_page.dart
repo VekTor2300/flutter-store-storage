@@ -30,7 +30,7 @@ class ProfilePageState extends State<ProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 40),
+        padding: const EdgeInsets.symmetric(horizontal: 50),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
@@ -40,7 +40,7 @@ class ProfilePageState extends State<ProfilePage> {
                 child: Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
+                      padding: const EdgeInsets.only(bottom: 20),
                       child: TextFormField(
                         controller: loginController,
                         validator: (value) {
@@ -53,7 +53,7 @@ class ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
+                      padding: const EdgeInsets.only(bottom: 20),
                       child: TextFormField(
                         controller: passwordController,
                         decoration: const InputDecoration(

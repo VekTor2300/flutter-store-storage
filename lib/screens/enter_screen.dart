@@ -25,7 +25,7 @@ class EnterScreenState extends State<EnterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 40),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
@@ -35,7 +35,7 @@ class EnterScreenState extends State<EnterScreen> {
                 child: Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
+                      padding: const EdgeInsets.only(bottom: 20),
                       child: TextFormField(
                         controller: loginController,
                         validator: (value) {
@@ -44,11 +44,12 @@ class EnterScreenState extends State<EnterScreen> {
                           }
                         },
                         decoration: const InputDecoration(
-                            border: OutlineInputBorder(), hintText: "email"),
+                            border: OutlineInputBorder(),
+                            hintText: "email"),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
+                      padding: const EdgeInsets.only(bottom: 20),
                       child: TextFormField(
                         controller: passwordController,
                         validator: (value) {

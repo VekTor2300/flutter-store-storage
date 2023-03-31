@@ -23,9 +23,9 @@ class MainScreenState extends State<MainScreen> {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.image), label: "Картинки"),
+          BottomNavigationBarItem(icon: Icon(Icons.image_outlined), label: "Imagees"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.account_circle), label: "Профиль")
+              icon: Icon(Icons.account_box_outlined), label: "Profile")
         ],
         currentIndex: currentIndex,
         onTap: ((value) {
